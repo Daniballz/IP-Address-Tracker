@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/x-icon">
+    <title>IP Address Tracker</title>
+</head>
+<body>
+    <main>
+        <div class="search">
+            <h2>IP Address Tracker</h2>
+            <div class="search-bar">
+                <form action="#" method="post" id="form">
+                    <input type="text" value="" placeholder="Search for any IP address or domain" id="ipAddress">
+                    <button type="submit" id="btn"><img src="images/icon-arrow.svg" alt=""></button>
+                </form>
+            </div>
+            <div class="search-results row">
+                <div class="search-result col-md">
+                    <h6>IP ADDRESS</h6>
+                    <p id="ipResult">192.1.10.107</p>
+                </div>
+                <div class="search-result col-md">
+                    <h6>LOCATION</h6>
+                    <p><span id="city">Brooklyn</span>, <span id="region">NY</span>, <span id="country"></span>
+                    </p>
+                </div>
+                <div class="search-result col-md">
+                    <h6>TIMEZONE</h6>
+                    <p>UTC <span id="timezone">-05:00</span></p>
+                </div>
+                <div class="search-result col-md">
+                    <h6>ISP</h6>
+                    <p id="isp">SpaceX
+                        Starlink
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="map" id="map" style="height: 500px;"></div>
+
+    </main>
+    
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
