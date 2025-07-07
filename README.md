@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Daniballz/IP-Address-Tracker)
-- Live Site URL: [Add live site URL here](https://daniballz.github.io/IP-Address-Tracker/)
+- Solution URL: (https://github.com/Daniballz/IP-Address-Tracker)
+- Live Site URL: (https://daniballz.github.io/IP-Address-Tracker/)
 
 ### Built with
 
