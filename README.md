@@ -14,8 +14,6 @@ This is a solution to the [IP address tracker challenge on Frontend Mentor](http
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -30,12 +28,10 @@ Users should be able to:
 
 ![](./images/IP%20Address%20Tracker%20-%20Google%20Chrome%207_7_2025%208_03_54%20PM.png)
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/Daniballz/IP-Address-Tracker)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://daniballz.github.io/IP-Address-Tracker/)
 
 ### Built with
 
